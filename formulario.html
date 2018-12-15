@@ -1,0 +1,38 @@
+<form>
+	<!--Campo direccion, tipo texto-->
+	<label>Dirección:</label> <br>
+	<input type="text" name="direccion" placeholder="Inserte su dirección" required><br>
+
+	<!--Campo email, tipo email-->
+	<label>Correo:</label> <br>
+	<input type="email" name="email" placeholder="Ingrese su correo" required> <br>
+
+	<!--Campo fecha de nacimiento, tipo date-->
+	<label>Fecha de nacimiento:</label> <br>
+	<input type="date" name="fecha_nacimiento" required> <br>
+
+	<!--Campo edad, tipo numer-->
+	<label>Edad:</label><br>
+	<input type="number" name="edad"  placeholder="Ingrese su edad" required> <br>
+
+	<!--Campo tipo checkbox-->
+	<label>Vehículo:</label> <br>
+	<input type="checkbox" name="vehiculo" value= "Moto">Moto<br>
+	<input type="checkbox" name="vehiculo1" value= "Bicicleta">Bicleta<br>
+
+	<!--Campo tipo radio-->
+	<label>Sexo:</label> <br>
+	<input type="radio" name="genero" value= "femenino">Femenino<br>
+	<input type="radio" name="genero" value= "masculino">Masculino<br>
+
+	<label>Ciudad</label><br>
+	<select name="ciudad"><br>
+		<option value="cde">Ciudad del Este</option><br>
+		<option value="asu">Asuncion</option><br>
+	</select><br>
+
+	<label>Mensaje</label><br>
+	<textarea name="Mensaje" cols="50" rows="10" required></textarea><br>
+
+	<input type="submit" name="Enviar" value="Enviar formulario"><br><br>
+</form>
