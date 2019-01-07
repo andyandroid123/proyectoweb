@@ -1,10 +1,12 @@
 body{
-	background-color: blue;
+	background-color: #f1f1f1;
 	font-family: 'Roboto', sans-serif;
 }
 #banner {
-	background-color: #cfd0d0;
-	padding: 20px;
+	background: url(../imagenes/page-background.jpg);
+	padding-top: 250px;
+	padding-bottom: 250px;
+	background-size: cover; /*(para que pueda adaptarse al tamanho del dispositivo)*/
 }
 
 .contenido {

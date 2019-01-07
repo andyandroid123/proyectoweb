@@ -2,50 +2,21 @@
 <html>
 <head>
   <!--comentario de prueba-->
-	<title>Contacto</title>
-	<meta charset="utf-8">
+  <title>Mi primera página</title>
+  
 
-	<meta name="description" content="Cursos de programacion y diseño en Ciudad del este- Paraguay">
+  <meta name="description" content="Cursos de programacion y diseño en Ciudad del este- Paraguay">
     <meta name="keywords" content="programacion, Cursos, diseño, ciudad del este">
-    <meta name="author" content="Richard Cabrera">
-    
-    <link rel="stylesheet" href="css/bootstrap.css"> 
-    <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
-
-    <style>
-    	body { background-color: #f1f1f1; }
-    </style>
+    <?php include 'includes/head.php'; ?>
 
 </head>
-
 <body>
 
-	<header>
-      <div class="container-fluid"  id="menu-principal">
-       
-       
-          <nav >
-          <a href="index.html" class="logo">
-            <img src="imagenes/logo2.png">
-          </a>
-          <ul>
-              <li>
-                  <a href="index.html">Inicio</a>
-              </li>
-              
-              <li>
-                  <a href="cursos.html">Cursos</a>
-              </li>
-              <li>
-                  <a href="contacto.html">Contacto</a>
-              </li>
-          </ul>
-       </nav>
-        </div>
-      </div>
-    </header>
-
+  <!-- INICIO DEL HEADER -->
+  <?php include 'includes/header.php';?>
+  <!-- FIN DEL HEADER -->
+    
+<!-- INICIO DEL CONTENIDO -->
 <main>
   <section class="main-header">
     <div class="container">
@@ -100,11 +71,23 @@
       </div>
     </div>
   </section>
+
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.8673753523744!2d-54.6296274!3d-25.5094693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f685bd8c314873%3A0xb12fbfc9747b41e3!2sCapacit!5e0!3m2!1ses!2spy!4v1546711337483" 
+        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+      </div>
+    </div>  
+  </section>
+
 </main>
 
-  <footer id="footer">
-      <p>Todos los derechos reservados. Desarrollado por <a href="http://www.capacit.com.py">Capacit</a> </p>
-  </footer> 
-
+    <!-- INICIO DEL FOOTER -->
+    <?php include 'includes/footer.php'?>    
+    <!-- FIN DEL FOOTER -->
+    <?php include 'includes/script.php'?> 
 </body>
 </html>

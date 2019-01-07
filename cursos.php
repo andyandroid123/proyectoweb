@@ -2,50 +2,21 @@
 <html>
 <head>
   <!--comentario de prueba-->
-	<title>Cursos</title>
-	<meta charset="utf-8">
+  <title>Mi primera página</title>
+  
 
-	<meta name="description" content="Cursos de programacion y diseño en Ciudad del este- Paraguay">
+  <meta name="description" content="Cursos de programacion y diseño en Ciudad del este- Paraguay">
     <meta name="keywords" content="programacion, Cursos, diseño, ciudad del este">
-    <meta name="author" content="Richard Cabrera">
-    
-    <link rel="stylesheet" href="css/bootstrap.css"> 
-    <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
-
-    <style>
-    	body { background-color: #f1f1f1; }
-    </style>
+    <?php include 'includes/head.php'; ?>
 
 </head>
-
 <body>
 
-	<header>
-      <div class="container-fluid"  id="menu-principal">
-       
-       
-          <nav >
-          <a href="index.html" class="logo">
-            <img src="imagenes/logo2.png">
-          </a>
-          <ul>
-              <li>
-                  <a href="index.html">Inicio</a>
-              </li>
-              
-              <li>
-                  <a href="cursos.html">Cursos</a>
-              </li>
-              <li>
-                  <a href="contacto.html">Contacto</a>
-              </li>
-          </ul>
-       </nav>
-        </div>
-      </div>
-    </header>
-
+  <!-- INICIO DEL HEADER -->
+  <?php include 'includes/header.php';?>
+  <!-- FIN DEL HEADER -->
+    
+<!-- INICIO DEL CONTENIDO -->
 <main>
   <section class="main-header">
     <div class="container">
@@ -124,9 +95,9 @@
     </section>
 </main>
 
-  <footer id="footer">
-      <p>Todos los derechos reservados. Desarrollado por <a href="http://www.capacit.com.py">Capacit</a> </p>
-  </footer> 
-
+    <!-- INICIO DEL FOOTER -->
+    <?php include 'includes/footer.php'?>    
+    <!-- FIN DEL FOOTER -->
+    <?php include 'includes/script.php'?> 
 </body>
 </html>

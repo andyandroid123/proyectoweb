@@ -3,50 +3,21 @@
 <head>
   <!--comentario de prueba-->
 	<title>Mi primera página</title>
-	<meta charset="utf-8">
+	
 
 	<meta name="description" content="Cursos de programacion y diseño en Ciudad del este- Paraguay">
     <meta name="keywords" content="programacion, Cursos, diseño, ciudad del este">
-    <meta name="author" content="Richard Cabrera">
-    
-    <link rel="stylesheet" href="css/bootstrap.css"> 
-    <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    
-    <style>
-    	body { background-color: #f1f1f1; }
-    </style>
+    <?php include 'includes/head.php'; ?>
 
 </head>
 <body>
 
-	<header>
-      <div class="container-fluid"  id="menu-principal">
-       
-       
-          <nav >
-          <a href="index.html" class="logo">
-            <img src="imagenes/logo2.png">
-          </a>
-          <ul>
-              <li>
-                  <a href="index.html">Inicio</a>
-              </li>
-              
-              <li>
-                  <a href="cursos.html">Cursos</a>
-              </li>
-              <li>
-                  <a href="contacto.html">Contacto</a>
-              </li>
-          </ul>
-       </nav>
-        </div>
-      </div>
-  
-
-    </header>
+  <!-- INICIO DEL HEADER -->
+  <?php include 'includes/header.php';?>
+  <!-- FIN DEL HEADER -->
     
+<!-- INICIO DEL CONTENIDO -->
+      <main>
       <div class="container-fluid text-center" id="banner">
           
           <div class="container">
@@ -119,7 +90,7 @@
 	    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	    		tempor incididunt ut labore et dolore magna aliqua.</p>
 
-	    		<a href="#" class="btn btn-info"> Detalles</a>
+	    		<a href="detalles.php" class="btn btn-info"> Detalles</a>
 
 	    		<span class="precio-curso">500.000Gs</span> <span class="mes-curso">/Mes</span>
 	    		
@@ -134,7 +105,7 @@
 	    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	    		tempor incididunt ut labore et dolore magna aliqua.</p>
 
-	    		<a href="#" class="btn btn-info"> Detalles</a>
+	    		<a href="detalles.php" class="btn btn-info"> Detalles</a>
 
 	    		<span class="precio-curso">500.000Gs</span> <span class="mes-curso">/Mes</span>
 	    		
@@ -149,7 +120,7 @@
 	    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	    		tempor incididunt ut labore et dolore magna aliqua.</p>
 
-	    		<a href="#" class="btn btn-info"> Detalles</a>
+	    		<a href="detalles.php" class="btn btn-info"> Detalles</a>
 
 	    		<span class="precio-curso">500.000Gs</span> <span class="mes-curso">/Mes</span>
 	    		
@@ -164,7 +135,7 @@
 	    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	    		tempor incididunt ut labore et dolore magna aliqua.</p>
 
-	    		<a href="#" class="btn btn-info"> Detalles</a>
+	    		<a href="detalles.php" class="btn btn-info"> Detalles</a>
 
 	    		<span class="precio-curso">500.000Gs</span> <span class="mes-curso">/Mes</span>
 	    		
@@ -172,8 +143,13 @@
 
     </div>
     </section>
-    <footer id="footer">
-        <p>Todos los derechos reservados. Desarrollado por <a href="http://www.capacit.com.py">Capacit</a> </p>
-    </footer> 
+
+<!-- FIN DEL CONTENIDO -->
+</main>
+
+    <!-- INICIO DEL FOOTER -->
+    <?php include 'includes/footer.php'?>    
+    <!-- FIN DEL FOOTER -->
+    <?php include 'includes/script.php'?> 
 </body>
 </html>
